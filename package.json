@@ -1,6 +1,6 @@
 {
   "name": "bull-board-gui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A GUI based on Express for Bull-board",
   "main": "cli.js",
   "repository": {
