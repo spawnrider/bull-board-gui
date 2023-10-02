@@ -1,6 +1,6 @@
 {
   "name": "bull-board-gui",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A GUI based on Express for Bull-board",
   "main": "cli.js",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "https://github.com/spawnrider/bull-board-gui.git"
   },
   "scripts": {
+    "start": "node cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -24,9 +25,12 @@
   "author": "Yohann Ciurlik",
   "license": "MIT",
   "dependencies": {
-    "bull": "^3.29.2",
+    "@bull-board/api": "^5.8.4",
+    "@bull-board/express": "^5.8.4",
+    "@bull-board/ui": "^5.8.4",
+    "bull": "^4.11.3",
     "bull-board": "^2.1.3",
-    "bullmq": "^1.47.1",
-    "express": "^4.17.1"
+    "bullmq": "^4.12.0",
+    "express": "^4.18.2"
   }
 }
